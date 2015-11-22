@@ -1,6 +1,7 @@
 #ifndef LISTMODELIB_H
 #define LISTMODELIB_H
 
+#include <cstdint>
 
 struct datablock{
      uint16_t bufferlength;

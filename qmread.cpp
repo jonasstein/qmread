@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <istream>
 #include <iostream>     // std::cout
 #include <fstream>      // std::ifstream
@@ -6,7 +7,7 @@
 //#include <stdint.h>
 #include <byteswap.h> // http://stackoverflow.com/questions/105252/how-do-i-convert-between-big-endian-and-little-endian-values-in-c
 #include "lmfile.cpp"
-#include <cstdint>
+
 
 
 #include <assert.h>     /* assert */

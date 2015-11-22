@@ -1,3 +1,4 @@
+#include <cstdint>
 #include "lmfile.hpp"
 #include <inttypes.h>
 #include <istream>
@@ -8,7 +9,7 @@
 //#include <stdint.h>
 #include <byteswap.h> // http://stackoverflow.com/questions/105252/how-do-i-convert-between-big-endian-and-little-endian-values-in-c
 #include <iomanip>
-#include <cstdint>
+
 
 
 #define _DEBUG
