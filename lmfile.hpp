@@ -1,7 +1,15 @@
 #ifndef LISTMODELIB_H
 #define LISTMODELIB_H
 
-#include <cstdint>
+#include <cstdint> 
+#include <inttypes.h>
+#include <istream>
+#include <iostream>     // std::cout
+#include <fstream>      // std::ifstream
+#include <string>     // std::string, std::stoull
+#include <stdio.h>
+#include <byteswap.h> // http://stackoverflow.com/questions/105252/how-do-i-convert-between-big-endian-and-little-endian-values-in-c
+#include <iomanip>
 
 struct datablock{
      uint16_t bufferlength;

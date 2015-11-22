@@ -6,7 +6,6 @@
 #include <fstream>      // std::ifstream
 #include <string>     // std::string, std::stoull
 #include <stdio.h>
-//#include <stdint.h>
 #include <byteswap.h> // http://stackoverflow.com/questions/105252/how-do-i-convert-between-big-endian-and-little-endian-values-in-c
 #include <iomanip>
 
